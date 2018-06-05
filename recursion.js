@@ -12,8 +12,8 @@ while (n <= 10) {
 
 const countToTen = (num) => {
   if (num > 10) return;
-  countToTen(++num)
   console.log(num)
+  countToTen(++num)
 }
 
 // when you code is ready, un-comment the next line and run the file
@@ -32,7 +32,10 @@ const factorial = n => {
 
 console.log(factorial(5));
 
-// write the above functionin a recursive way.
-
+// write the above function in a recursive way.
+const recursiveFactorial = n => {
+  if() return;
+    result;
+}
 // when you code is ready, un-comment the next line and run the file
-// console.log(recursiveFactorial());
+ console.log(recursiveFactorial());
